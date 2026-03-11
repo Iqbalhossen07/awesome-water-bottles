@@ -1,0 +1,21 @@
+.bottles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* এক সারিতে ৩টি সমান কলাম */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ছোট ডিভাইসের জন্য (Mobile/Tablet) */
+@media (max-width: 992px) {
+    .bottles-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .bottles-container {
+        grid-template-columns: 1fr;
+    }
+}

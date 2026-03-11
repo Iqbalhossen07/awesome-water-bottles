@@ -1,0 +1,72 @@
+.bottle-card {
+    border: 1px solid #333; /* ডার্ক বর্ডার */
+    border-radius: 12px;
+    padding: 15px;
+    text-align: left;
+    background-color: #1a1a1a; /* কার্ডের ব্যাকগ্রাউন্ড ব্ল্যাক/ডার্ক */
+    color: #ffffff; /* সব টেক্সট সাদা */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottle-card:hover {
+    transform: translateY(-5px);
+}
+
+.bottle-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #f5f5f5; /* ইমেজের ব্যাকগ্রাউন্ড হালকা রাখা ভালো যাতে বোটল ফুটে ওঠে */
+}
+
+.bottle-info h3 {
+    font-size: 1.1rem;
+    margin: 15px 0 10px;
+    color: #fff;
+}
+
+/* কার্ডের ভেতরের ইনফরমেশন গ্রিড */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* এখানে স্পষ্ট করে ২ কলাম বলে দেওয়া হলো */
+    gap: 12px 15px; /* প্রথমটি Row gap, দ্বিতীয়টি Column gap */
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.info-grid p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #e0e0e0; /* ডার্ক মোডে পড়ার সুবিধার জন্য হালকা গ্রে */
+    line-height: 1.4;
+}
+
+.info-grid strong {
+    color: #fff; /* টাইটেলগুলো একদম সাদা দেখাবে */
+    display: block; /* টাইটেল আর ভ্যালু সামান্য আলাদা রাখার জন্য */
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+}
+
+.success-btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.success-btn:hover {
+    background-color: #2ecc71;
+}
