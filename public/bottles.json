@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "brand": "Hydro Flask",
+    "capacity": "750ml",
+    "material": "Stainless Steel",
+    "color": "Black",
+    "price": 35.99,
+    "weight": "420g",
+    "lifespan": "5 years",
+    "hotColdSupport": "Yes",
+    "picture": "https://example.com/images/hydroflask-black.jpg"
+  },
+  {
+    "id": 2,
+    "brand": "Thermos",
+    "capacity": "500ml",
+    "material": "Stainless Steel",
+    "color": "Silver",
+    "price": 28.50,
+    "weight": "350g",
+    "lifespan": "4 years",
+    "hotColdSupport": "Yes",
+    "picture": "https://example.com/images/thermos-silver.jpg"
+  },
+  {
+    "id": 3,
+    "brand": "Contigo",
+    "capacity": "650ml",
+    "material": "BPA-Free Plastic",
+    "color": "Blue",
+    "price": 18.99,
+    "weight": "290g",
+    "lifespan": "3 years",
+    "hotColdSupport": "No",
+    "picture": "https://example.com/images/contigo-blue.jpg"
+  },
+  {
+    "id": 4,
+    "brand": "Nalgene",
+    "capacity": "1L",
+    "material": "Tritan Plastic",
+    "color": "Green",
+    "price": 16.75,
+    "weight": "300g",
+    "lifespan": "6 years",
+    "hotColdSupport": "No",
+    "picture": "https://example.com/images/nalgene-green.jpg"
+  },
+  {
+    "id": 5,
+    "brand": "CamelBak",
+    "capacity": "600ml",
+    "material": "Stainless Steel",
+    "color": "Red",
+    "price": 25.40,
+    "weight": "380g",
+    "lifespan": "4 years",
+    "hotColdSupport": "Yes",
+    "picture": "https://example.com/images/camelbak-red.jpg"
+  },
+  {
+    "id": 6,
+    "brand": "Stanley",
+    "capacity": "1.2L",
+    "material": "Stainless Steel",
+    "color": "Matte Black",
+    "price": 45.00,
+    "weight": "620g",
+    "lifespan": "8 years",
+    "hotColdSupport": "Yes",
+    "picture": "https://example.com/images/stanley-matte-black.jpg"
+  },
+  {
+    "id": 7,
+    "brand": "Simple Modern",
+    "capacity": "750ml",
+    "material": "Stainless Steel",
+    "color": "Pink",
+    "price": 22.99,
+    "weight": "400g",
+    "lifespan": "4 years",
+    "hotColdSupport": "Yes",
+    "picture": "https://example.com/images/simplemodern-pink.jpg"
+  },
+  {
+    "id": 8,
+    "brand": "Takeya",
+    "capacity": "850ml",
+    "material": "Stainless Steel",
+    "color": "White",
+    "price": 27.30,
+    "weight": "410g",
+    "lifespan": "5 years",
+    "hotColdSupport": "Yes",
+    "picture": "https://example.com/images/takeya-white.jpg"
+  },
+  {
+    "id": 9,
+    "brand": "Brita",
+    "capacity": "700ml",
+    "material": "Plastic",
+    "color": "Gray",
+    "price": 19.99,
+    "weight": "330g",
+    "lifespan": "3 years",
+    "hotColdSupport": "No",
+    "picture": "https://example.com/images/brita-gray.jpg"
+  },
+  {
+    "id": 10,
+    "brand": "Klean Kanteen",
+    "capacity": "800ml",
+    "material": "Stainless Steel",
+    "color": "Orange",
+    "price": 32.60,
+    "weight": "390g",
+    "lifespan": "6 years",
+    "hotColdSupport": "Yes",
+    "picture": "https://example.com/images/klean-kanteen-orange.jpg"
+  }
+]
