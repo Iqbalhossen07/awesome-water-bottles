@@ -1,7 +1,7 @@
 import React from "react";
 import "./bottle.css";
 
-function Bottle({ bottle }) {
+function Bottle({ bottle, handleAddToCart }) {
   const { name, img, seller, price, stock, ratings } = bottle;
 
   return (
@@ -28,7 +28,9 @@ function Bottle({ bottle }) {
         </div>
       </div>
 
-      <button className="success-btn">Buy Now</button>
+      <button onClick={() => handleAddToCart(bottle)} className="success-btn">
+        Buy Now
+      </button>
     </div>
   );
 }

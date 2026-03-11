@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <h1>Buy Awesome Water Bottles</h1>
+      
       <Suspense>
         <Bottles bottlesPromise={bottlesPromise}></Bottles>
       </Suspense>
